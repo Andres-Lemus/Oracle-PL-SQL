@@ -1,0 +1,6 @@
+BEGIN
+    READ_FILE;
+END;
+/
+
+SELECT * FROM F1;
