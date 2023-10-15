@@ -1,0 +1,15 @@
+CREATE TABLE TIENDA
+(
+    CODIGO NUMBER,
+    ESTANTERIA NUMBER,
+    PRODUCTO PRODUCTO
+);
+
+DESC TIENDA;
+
+INSERT INTO TIENDA VALUES(1,1,PRODUCTO(1,'Limon',90));
+
+SELECT * FROM TIENDA;
+SELECT t.producto.precio FROM tienda t;
+
+SELECT t.producto.ver_producto() FROM tienda t;
